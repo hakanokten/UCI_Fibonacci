@@ -8,20 +8,17 @@ int fibonacci (int x){
             result[i] = 0;
         }
         else if (i == 1){
-            result[i] = 1;
-          
+            result[i] = 1; 
           }
         else{
             result[i] = result[i-1] + result[i-2];
-        }
-        
+        }    
         printf("%d ", result[i]);
     }
-    
-    
     return result;
 }
 
 int main (){
     fibonacci(6);
+    return 0;
 }
